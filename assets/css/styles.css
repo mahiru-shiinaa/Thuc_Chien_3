@@ -1,0 +1,340 @@
+/* Box head */
+.box-head {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.box-head .inner-title {
+    color: white;
+    font-size: 38px;
+    margin-top: 0; 
+    line-height: 1.5;
+    margin-bottom: 30;
+}
+
+.box-head .inner-desc {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 40px;
+    margin-top: 0px;
+}
+/* End Box Head */
+
+/* Button */
+.button {
+    padding: 12px 20px;
+    font-size: 14px;
+    border-radius: 20px;
+    background-color: var(--color-two);
+    letter-spacing: 0.25px;
+    transition: all 0.3s ease-in-out;
+    color: white;
+}
+
+.button a {
+    text-decoration: none;
+}
+
+.button-one {
+    background-color: var(--color-two);
+    color: white;
+    
+}
+
+.button-one:hover {
+    background-color: var(--color-one);
+    color: white;
+}
+
+/* End Button */
+
+
+
+/* Header */
+.header {
+    position: fixed;
+    top: 30px;
+    left: 0px;
+    right: 0px;
+    z-index: 100;
+}
+
+.header-main {
+    display: flex;
+    background: white;
+    min-height: 80px;
+    align-items: center;
+    border-radius: 40px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.header-main .inner-menu {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header-main .inner-icon-mobi {
+    display: none;
+}
+
+.header-main .inner-menu ul {
+    display: flex;
+    margin: 0;
+    white-space: nowrap;
+    padding-right: 10px;
+
+}
+
+.header-main .inner-menu ul li {
+    list-style: none;
+    padding: 0 20px;
+
+}
+
+.header-main .inner-menu ul li a {
+    font-size: 15px;
+    color: var(--color-text);
+    transition: color 0.3s ease-in-out;
+}
+
+.header-main .inner-menu ul li:nth-child(1) a {
+    color: var(--color-two);
+}
+
+.header-main .inner-menu ul li:not(:first-child) a:hover {
+    color: var(--color-two);
+}
+
+.header-main .inner-logo {
+    margin-left: 30px;
+    margin-right: 50px;
+}
+
+@media (max-width: 991.98px) {
+
+    .header-main .inner-icon-mobi {
+        cursor: pointer;
+        display: block;
+        font-size: 28px;
+        padding-right: 25px;
+    }
+
+    .header-main {
+        justify-content: space-between;
+    }
+
+    .header-main .inner-menu {
+        display: none;
+        flex: none;
+    }
+}
+
+@media (max-width: 1198.98px) {
+    .header-main .inner-menu ul {
+        padding: 0px;
+
+    }
+
+    .header-main .inner-menu ul li {
+        padding-left: 0px;
+    }
+
+}
+
+/* End Header */
+
+/* Welcome Area */
+.welcome-area {
+    background-image: url(../images/banner-bg.png);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    justify-content: center;
+}
+
+.welcome-area .inner-wrap {
+    text-align: center;
+}
+
+/* End Welcome Area */
+
+/* Home feature */
+.home-feature {
+    padding-bottom: 0px;
+    padding-top: 30px;
+    margin-top: -220px;
+    z-index: 9;
+}
+
+.home-feature .inner-box {
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.home-feature .inner-box .inner-icon {
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: var(--color-one);
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.home-feature .inner-box:hover .inner-icon {
+    background-color: var(--color-two);
+    transition: all 0.3s ease-in-out;
+}
+
+.home-feature .inner-box .inner-title {
+    font-size: 18px;
+    color: #1e1e1e;
+    margin-bottom: 15px;
+}
+
+.home-feature .inner-box .inner-desc {
+    color: #777;
+    margin: 0;
+}
+/* End Home feature */
+
+/* Section Three */
+.section-three {
+    padding-top: 70px;
+}
+
+.section-three .inner-image {
+    margin: 0 83px;
+}
+
+.section-three .inner-title {
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+.section-three .inner-desc {
+    margin-bottom: 30px;
+    color: #777;
+}
+
+.section-three .hr {
+    width: 100%;
+    height: 1px;
+    margin-top: 100px;
+    border-bottom: 1px solid #eee;
+}
+/* End Section Three */
+
+/* Section Four */
+.section-four {
+    padding: 100px 0;
+}
+
+.section-four .inner-image{
+    margin: 0 83px;
+}
+
+.section-four .inner-title {
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+.section-four .inner-desc {
+    margin-bottom: 30px;
+    color: #777;
+}
+
+
+/* End Section Four */
+
+/* Section Five */
+.section-five {
+    background-image: url(../images/work-process-bg.png);
+    opacity: .95;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.section-five .inner-wrap {
+    padding: 100px 0;
+}
+
+.section-five .inner-title {
+    font-size: 28px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.section-five .inner-desc {
+    font-size: 15px;
+    margin-bottom: 40px;
+    line-height: 2;
+    color: white;
+}
+
+.section-five .inner-box {
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+    position: relative;
+    transition: all 0.3sease 0s;
+}
+
+
+.section-five .inner-box::before{
+    position: absolute;
+    content: "";
+    z-index: 100;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    opacity: 0.15;
+    bottom: -10px;
+    left: 9px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.section-five .inner-box:hover {
+    transform: translateY(-15px);
+    transition: transform 450ms;
+    cursor: pointer;
+}
+
+.section-five .inner-box .inner-image {
+    margin-bottom: 15px;
+}
+
+.section-five .inner-box .inner-image img {
+    font-size: 20px;
+}
+
+.section-five .inner-box .inner-name {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 17px;
+    color: var(--color-text);
+
+}
+
+.section-five .inner-box .inner-text {
+    margin: 0;
+    font-size: 16px;
+    color: #777;
+}
+/* End Section Five */
