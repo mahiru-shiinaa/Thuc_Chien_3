@@ -530,3 +530,120 @@
     padding-bottom: 20px;
 }
 /* End pricing-plans */
+
+/* Blog Entries */
+.blog-entries {
+    padding: 100px 0;
+}
+
+.blog-entries .inner-title {
+    color: #000;
+    font-size: 28px;
+    
+}
+
+.blog-entries .inner-desc {
+    color: #777;
+    margin-bottom: 50px;
+    letter-spacing: 3px;
+    font-size: 15px;
+}
+
+.blog-entries .inner-content {
+    padding-top: 60px;
+    margin-top: -30px;
+    text-align: center;
+}
+
+.blog-entries .inner-image {
+    overflow: hidden;
+    border-radius: 20px;
+    position: relative;
+    height: 200px;
+    text-align: center;
+}
+
+.blog-entries .inner-content .inner-title-2 {
+    font-size: 18px;
+    color: #1E1E1E;
+    font-weight: 500;
+    letter-spacing: 3px;
+    
+}
+
+.blog-entries .inner-box {
+    margin-bottom: 35px;
+}
+
+.blog-entries .inner-content .inner-title-2:hover {
+    color: var(--color-two);
+    transition: all 0.3s ease-in-out;
+}
+
+.blog-entries .inner-text {
+    margin-bottom: 35px;
+    margin-top: 20px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 2;
+    color: #777;
+
+}
+
+/* End Blog Entries */
+
+/* talk-to-us */
+.talk-to-us {
+    padding: 160px 0;
+    background-color: #f2f2fe;
+}
+
+.talk-to-us .inner-title {
+    color: #000;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.talk-to-us .inner-desc {
+    color: #777;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+.talk-to-us .inner-title-2 {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #000;
+    
+}
+
+.talk-to-us .inner-text p {
+    font-size: 14px;
+    margin-bottom: 28px;
+    color: #6F8BA4;
+    max-width: 450px;
+}
+
+.talk-to-us .contact-form input {
+    color: #777;
+    width: 100%;
+    padding: 23px;
+    font-size: 13px;
+    border-radius: 25px;
+    border: 1px solid #eee;
+    margin-bottom: 30px;
+}
+
+.talk-to-us .contact-form textarea {
+    border: 1px solid #eee;
+    font-size: 13px;
+    color: #777;
+    border-radius: 25px;
+    appearance: none;
+    resize: none;
+    min-height: 150px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+/* End talk-to-us */
